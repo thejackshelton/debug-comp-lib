@@ -44,6 +44,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-qwik": "latest",
     "np": "^8.0.4",
+    "pkg-pr-new": "^0.0.9",
     "prettier": "^3.2.5",
     "typescript": "5.4.5",
     "undici": "*",
