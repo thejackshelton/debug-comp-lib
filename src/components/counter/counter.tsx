@@ -12,3 +12,7 @@ export const Counter = component$(() => {
     </div>
   );
 });
+
+export const Debug = {
+  Counter,
+};
