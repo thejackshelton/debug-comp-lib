@@ -23,6 +23,10 @@ export default defineConfig(() => {
           ...excludeAll(dependencies),
           ...excludeAll(peerDependencies),
         ],
+        output: {
+          preserveModules: true,
+          preserveModulesRoot: "./src",
+        },
       },
     },
     plugins: [qwikVite(), tsconfigPaths()],
