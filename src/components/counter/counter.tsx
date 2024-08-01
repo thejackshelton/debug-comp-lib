@@ -1,7 +1,11 @@
-import { component$, useSignal } from "@builder.io/qwik";
+import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
 
 export const Counter = component$(() => {
   const count = useSignal(0);
+
+  useVisibleTask$(() => {
+    console.log("hi");
+  });
 
   return (
     <div>
